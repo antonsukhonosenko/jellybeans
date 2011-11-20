@@ -1,0 +1,161 @@
+body {
+	font-size: 12px;
+}
+
+.header {
+	margin-left: 30px; 
+	font-family:'PT Sans Narrow';
+	color: white; 
+	font-weight: bold; 
+	display: inline-block;
+	float: left;
+}
+
+h3 a {
+	margin-left: 7px;
+	margin-bottom: 0px;
+	position: relative;
+	top: -2px;
+	font-weight: normal;
+	font-family: 'Arial';
+	font-size: 10px;
+	color: #006699;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: 'PT Sans Narrow';
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+a, a:visited /* TODO: remove visited after testing */ {
+	font-family: 'Arial';
+	font-size: 12px;
+	color: #006699;
+}
+
+.filter {
+	margin-left: 30px;
+}
+
+fieldset {
+	margin-top: -4px;
+	margin-bottom: 10px;
+}
+
+.colors input[type=checkbox], .sizes input[type=checkbox] {
+	display:none;
+}
+
+.colors {
+	width: 18px;
+	height: 18px;
+	border: 2px solid white;
+	background-color: grey;
+	margin-right: 3px;
+	float: left;
+	cursor: pointer;
+}
+
+.sizes {
+	height: 32px;
+	margin-right: 3px;
+	float: left;
+	cursor: pointer;
+}
+
+#big_size {
+	background-image:url('../images/big_size.gif');
+	width: 47px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#middle_size {
+	background-image:url('../images/middle_size.gif');
+	width: 40px;
+	background-repeat: no-repeat;	
+	overflow: hidden;
+}
+
+#small_size {
+	background-image:url('../images/small_size.gif');
+	width: 30px;
+	background-repeat: no-repeat;	
+	overflow: hidden;
+}
+
+.result_item {
+	width: 210px;
+	height: 260px;
+	padding-right: 20px;
+	float: left;
+}
+
+.result_item a, .result_item a:visited {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	line-height: 1.4;
+}
+
+.price {
+	font-size: 24px;
+	font-family: 'PT Sans Narrow';
+	font-weight: bold;
+	display: inline-block;	
+	margin-right: 5px;
+	padding-top: 3px;
+}
+
+.buy_button {
+	display: inline-block;
+	background-color: green;
+	padding: 2px 12px 2px 12px;
+	color: white;
+	font-weight: bold;
+	font-family: 'PT Sans Narrow';
+	position: relative;
+	top: -4px;
+	cursor: pointer;
+}
+
+#red {
+	background-color: red;
+}
+
+#orange {
+	background-color: orange;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#green {
+	background-color: green;
+}
+
+#purple {
+	background-color: #990099;
+}
+
+#black {
+	background-color: black;
+}
+
+#white {
+	background-color: white;
+	border: 2px solid lightgrey;
+}
+
+#pink {
+	background-color: #ff00ff;
+}

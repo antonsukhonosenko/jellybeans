@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Jelly Beans Shop</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	
+	<link rel="stylesheet" href="stylesheets/custom.css">
+	<link rel="stylesheet" href="PTSansWeb/stylesheet.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<div class="sixteen columns" style="background-color: #00ccff; padding: 43px 0 23px 0px">
+			<h1 class="remove-bottom header">Jelly Beans</h1>
+			<form style="display: inline-block; margin-top: 15px; margin-left: 30px"><input style="width: 420px" type="text" id="search_all"></input></form>
+		</div>
+		<div class="four columns" style="padding-top: 30px">
+			<div class="filter">
+			  <form>
+				<h3>Brands<a href="#" id="brands_reset">Reset</a></h3>
+				<fieldset>
+					<input type="checkbox" class="brands" id="jellybelly" value="JellyBelly">JellyBelly</input><br/>
+					<input type="checkbox" class="brands" id="purplejam" value="Purple Jam">Purple Jam</input><br/>
+					<input type="checkbox" class="brands" id="kirklandsignature" value="Kirkland Signature">Kirkland Signature</input><br/>
+					<input type="checkbox" class="brands" id="hersheys" value="Hershey's">Hershey's</input><br/>
+				</fieldset>
+				<h3>Sizes</h3>
+				<fieldset>
+					<div class="sizes" id="big_size"><input type="checkbox" id="big" value="Big"></input></div>
+					<div class="sizes" id="middle_size"><input type="checkbox" id="middle" value="Mmiddle"></input></div>
+					<div class="sizes" id="small_size"><input type="checkbox" id="small" value="Small"></input></div>
+				</fieldset>
+				<h3>Colors<a href="#" id="colors_reset">Reset</a></h3>
+				<fieldset>
+					<div class="colors" id="red"><input type="checkbox" id="red" value="Red"></input></div>
+					<div class="colors" id="orange"><input type="checkbox" id="orange" value="Orange"></input></div>
+					<div class="colors" id="yellow"><input type="checkbox" id="yellow" value="Yellow"></input></div>
+					<div class="colors" id="purple"><input type="checkbox" id="purple" value="Purple"></input></div>
+					<div class="colors" id="black"><input type="checkbox" id="black" value="Black"></input></div>
+					<div class="colors" id="white"><input type="checkbox" id="white" value="White"></input></div>
+					<div class="colors" id="pink"><input type="checkbox" id="pink" value="Pink"></input></div>
+				</fieldset>
+				<h3>Flavors<a href="#" id="flavors_reset">Reset</a></h3>
+				<fieldset>
+					<input type="checkbox" class="flavors" id="cherry" value="Cherry">Cherry</input><br/>
+					<input type="checkbox" class="flavors" id="orange" value="Orange">Orange</input><br/>
+					<input type="checkbox" class="flavors" id="lemon" value="Lemon">Lemon</input><br/>
+					<input type="checkbox" class="flavors" id="lime" value="Lime">Lime</input><br/>
+					<input type="checkbox" class="flavors" id="grape" value="Grape">Grape</input><br/>
+					<input type="checkbox" class="flavors" id="anise" value="Anise">Anise</input><br/>
+					<input type="checkbox" class="flavors" id="lemonade" value="Lemonade">Lemonade</input><br/>
+					<input type="checkbox" class="flavors" id="strawberry" value="Strawberry">Strawberry</input><br/>
+					<input type="checkbox" class="flavors" id="cinnamon" value="Cinnamon">Cinnamon</input><br/>
+					<input type="checkbox" class="flavors" id="ginger" value="Ginger">Ginger</input><br/>
+					<input type="checkbox" class="flavors" id="spearmint" value="Spearmint">Spearmint</input><br/>
+					<input type="checkbox" class="flavors" id="clove" value="Clove">Clove</input><br/>
+					<input type="checkbox" class="flavors" id="anise" value="Anise">Anise</input><br/>
+					<input type="checkbox" class="flavors" id="mint" value="Mint">Mint</input><br/>
+					<input type="checkbox" class="flavors" id="wintergreen" value="Wintergreen">Wintergreen</input><br/>
+				</fieldset>
+				<h3>Prices<a href="#" id="prices_reset">Reset</a></h3>
+				<div id="slider"></div>
+			  </form>	
+			</div>	
+		</div>
+		<div class="twelve columns" style="padding-top: 30px">
+			<!-- search results -->
+			
+			<div class="result_item jellybelly red cherry big">
+				<a href="#"><img src="images/jellybeans1.jpg" /></a>
+				<a href="#" class="name">Jellybelly Red Cherry Big</a><br/>
+				<span class="price">$10</span><span class="buy_button">BUY</span>
+			</div>
+
+			<div class="result_item hersheys orange orange middle">
+				<a href="#"><img src="images/jellybeans2.jpg" /></a>
+				<a href="#" class="name">Hershey's Orange Middle</a><br/>
+				<span class="price">$30</span><span class="buy_button">BUY</span>
+			</div>
+
+			<div class="result_item purplejam yellow cherry small">
+				<a href="#"><img src="images/jellybeans3.jpg" /></a>
+				<a href="#" class="name">PurpleJam Yellow Cherry Small</a><br/>
+				<span class="price">$40</span><span class="buy_button">BUY</span>
+			</div>
+			
+			<div class="result_item purplejam green lime big">
+				<a href="#"><img src="images/jellybeans4.jpg" /></a>
+				<a href="#" class="name"> PurpleJam Green Lime Big</a><br/>
+				<span class="price">$50</span><span class="buy_button">BUY</span>
+			</div>
+
+			<div class="result_item kirklandsignature purple grape middle">
+				<a href="#"><img src="images/jellybeans5.jpg" /></a>
+				<a href="#" class="name">Kirkland Signature Purple Grape Middle</a><br/>
+				<span class="price">$60</span><span class="buy_button">BUY</span>
+			</div>
+
+			<div class="result_item jellybelly black anise small">
+				<a href="#"><img src="images/jellybeans6.jpg" /></a>
+				<a href="#" class="name">JellyBelly Black Anise Small</a><br/>
+				<span class="price">$70</span><span class="buy_button">BUY</span>
+			</div>
+
+			<div class="result_item jellybelly white lemonade big">
+				<a href="#"><img src="images/jellybeans7.jpg" /></a>
+				<a href="#" class="name">JellyBelly White Lemonade Big</a><br/>
+				<span class="price">$80</span><span class="buy_button">BUY</span>
+			</div>
+			
+			<div class="result_item jellybelly red cherry middle">
+				<a href="#"><img src="images/jellybeans8.jpg" /></a>
+				<a href="#" class="name">JellyBelly Red Cherry Middle</a><br/>
+				<span class="price">$90</span><span class="buy_button">BUY</span>
+			</div>			
+		</div>
+
+	</div><!-- container -->
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="javascripts/custom.js"></script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
